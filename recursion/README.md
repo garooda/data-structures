@@ -27,7 +27,7 @@ because base case is used to terminate the code from being executed after the co
 so suppose if n = 5 in the above code then,
 ![factorial](https://github.com/garooda/data-structures/blob/main/recursion/photo_2021-03-12_14-57-49.jpg)
 
-above code will never terminate and hence it will segmentation fault.
+above code will never terminate and hence it will give segmentation fault when executed.
 
 so the correct code will be
 
