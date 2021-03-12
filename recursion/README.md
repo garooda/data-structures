@@ -26,3 +26,27 @@ because base case is used to terminate the code from being executed after the co
 
 so suppose if n = 5 in the above code then,
 ![factorial](https://github.com/garooda/data-structures/blob/main/recursion/photo_2021-03-12_14-57-49.jpg)
+
+above code will never terminate and hence it will segmentation fault.
+
+so the correct code will be
+
+
+```c++
+#include<iostream>
+using namespace std;
+
+int factorial(int n){
+    if(n==0 || n==1){
+        return n;
+    }
+    else{
+    int n*factorial(n-1);
+    }
+}
+int main(){
+    int n;
+    cout<<factorial(n);
+    return 0;
+}
+```
