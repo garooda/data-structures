@@ -45,7 +45,7 @@ int factorial(int n){
         return n;
     }
     else{
-    int n*factorial(n-1);
+    return n*factorial(n-1);
     }
 }
 int main(){
