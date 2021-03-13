@@ -29,7 +29,7 @@ so suppose if n = 5 in the above code then,
 
 above code will never terminate and hence it will give segmentation fault when executed.
 
-the question still remains **why do we get segmentation fault?**
+the question still remains **why and how do we get segmentation fault?**
 the answer is if the code does not terminated at appropriate step it will continue to calculate factorial for infinite number which results in unavailability of a memory.
 ![memory](https://github.com/garooda/data-structures/blob/main/recursion/photo_2021-03-13_10-28-57.jpg)
 
